@@ -1,0 +1,37 @@
+src/styles/tokens.css
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* =========================
+   SECTION TITLES 
+========================= */
+.text-section-title {
+  font-family: var(--font-primary);
+  font-weight: var(--title-weight);
+  font-size: var(--title-size);
+  line-height: var(--title-line);
+  color: var(--color-text);
+}
+
+
+/* =========================
+   SECTION DESCRIPTIONS
+========================= */
+.text-section-description {
+  font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #050505;
+
+  max-width: 952px;
+}
+

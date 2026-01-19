@@ -1,0 +1,32 @@
+/* CONTENEUR GLOBAL : BLANC */
+.background {
+  position: relative;
+  width: 100%;
+  background-color: #ffffff; /* ✅ BLANC */
+  overflow-x: hidden;
+}
+
+/* ZONE DÉCORATIVE GRISE + CITY  */
+.background__city {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 400px; /* hauteur de la bande grise */
+
+  background-color: #f5f5f5;
+  background-image: url("@/assets/svg/city-wall.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 80% auto; 
+
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* CONTENU RÉEL DE LA PAGE */
+.background__content {
+  position: relative;
+  z-index: 1;
+}

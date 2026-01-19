@@ -1,0 +1,27 @@
+.btn-attestation {
+  width: 240px;
+  height: 68px;
+
+  padding: 20px 24px;
+  border-radius: 8px;
+
+  background: #050505;
+  color: #ffffff;
+
+  font-family: var(--font-primary);
+  font-weight: var(--button-weight);
+  font-size: var(--button-size);
+  line-height: var(--button-line);
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  white-space: nowrap; 
+}
+
+.btn-attestation:hover {
+  opacity: 0.9;
+}

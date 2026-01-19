@@ -1,0 +1,76 @@
+.financing-info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px;
+  
+}
+
+/* LEFT */
+.financing-info__content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* FEATURES */
+.financing-info__features {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* RIGHT */
+.financing-info__visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.financing-info__visual picture,
+.financing-info__visual img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ========================= */
+/* DESKTOP (clé du layout)   */
+/* ========================= */
+@media (min-width: 1440px) {
+  .financing-info {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 48px;
+  }
+
+  .financing-info__content {
+    width: 654px;
+  }
+
+  .financing-info__features {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .financing-info__visual {
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; 
+  }
+
+  .financing-info__visual picture {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .financing-info__visual img {
+    height: 100%;
+    width: auto;
+    max-width: 250px;
+    object-fit: contain;
+  }
+}

@@ -1,0 +1,53 @@
+:root {
+    /* =========================
+       FONTS
+    ========================= */
+    --font-primary: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  
+    /* =========================
+       COLORS
+    ========================= */
+    --color-text: #050505;
+    --color-bg-white: #ffffff;
+    --color-bg-gray: #f5f5f5;
+    --color-border: #d3d3d3;
+    --color-accent: #0C806B;
+  
+    /* =========================
+       TYPOGRAPHY
+    ========================= */
+    --title-size: 32px;
+    --title-line: 40px;
+    --title-weight: 900;
+  
+    --body-size: 16px;
+    --body-line: 24px;
+    --body-weight: 400;
+  
+    --card-title-size: 16px;
+    --card-title-line: 24px;
+    --card-title-weight: 600;
+  
+    --caption-size: 12px;
+    --caption-line: 16px;
+    --caption-letter: 0.02em;
+  
+    --button-size: 18px;
+    --button-line: 28px;
+    --button-weight: 600;
+  
+    /* =========================
+       SPACING
+    ========================= */
+    --space-8: 8px;
+    --space-16: 16px;
+    --space-24: 24px;
+    --space-32: 32px;
+    --space-48: 48px;
+  
+    /* =========================
+       RADIUS
+    ========================= */
+    --radius-8: 8px;
+  }
+  

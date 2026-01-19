@@ -78,7 +78,7 @@ src/
 - **pages**
   - Assemble les composants pour former l’interface finale
 
-👉 Chaque composant possède son **fichier CSS co-localisé**, afin de garder des styles lisibles et faciles à maintenir.
+Chaque composant possède son **fichier CSS co-localisé**, afin de garder des styles lisibles et faciles à maintenir.
 
 ---
 
